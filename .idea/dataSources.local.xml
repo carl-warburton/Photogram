@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails photogram: production" uuid="e11cfa18-5f78-4c00-875e-151d5243fc9c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>photogram</user-name>
+    </data-source>
+    <data-source name="Rails photogram: development" uuid="f405afc8-6961-458a-abc1-834010fc9cf1">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails photogram: test" uuid="5b6931d0-22f8-4288-8186-57ef43ba662b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+  </component>
+</project>
