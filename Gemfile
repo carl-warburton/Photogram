@@ -38,6 +38,13 @@ gem 'jbuilder', '~> 2.5'
 # Image uploader
 gem "paperclip", "~> 6.0.0"
 
+# forms
+ gem 'simple_form'
+
+# styling
+gem 'bootstrap', '~> 4.1.3'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
