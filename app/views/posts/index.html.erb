@@ -1,9 +1,26 @@
-<%= Photogram %>
 
 <% @posts.each do |post| %>
+  <div class="row">
+    <div class="col-8 offset-2">
+      <div class="card">
 
-  <%= image_tag post.image %>
+        <div class="card-content">
+          <div class="col s6">
+            <div class="post-head">
+              Ben Walker
+            </div>
+          </div>
+        </div>
+        <div class="card-image">
+          <img>
+          <%= image_tag post.image %>
+          </img>
+        </div>
+        <div class="caption">
+          <%= post.caption %>
+        </div>
 
-  <%= post.caption %>
-
+      </div>
+    </div>
+  </div>
 <% end %>
